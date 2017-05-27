@@ -55,7 +55,11 @@
             <div class="row header show-for-large align-middle">
                 <div class="medium-3 columns">
                     <a class="clearfix" href="<?= home_url(); ?>">
-                        <img class="logo" src="<?= get_template_directory_uri() . '/images/logo-white.svg' ?>"/>
+                        <?php if ( is_home() ) : ?>
+                            <img class="logo" src="<?= get_template_directory_uri() . '/images/logo-white.svg' ?>"/>
+                        <?php else : ?>
+                            <img class="logo" src="<?= get_template_directory_uri() . '/images/logo.svg' ?>"/>
+                        <?php endif; ?>
                     </a>
                 </div>
                 <div class="medium-9 columns">
