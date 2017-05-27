@@ -41,14 +41,22 @@
             <div class="row header header--social show-for-large text-right">
                 <div class="medium-12 columns">
                     Follow us for updates:
-                    <a href="#"><img class="social-icon" src="/images/icon-facebook.svg"/></a>
-                    <a href="#"><img class="social-icon" src="/images/icon-twitter.svg"/></a>
-                    <a href="#"><img class="social-icon" src="/images/icon-youtube.svg"/></a>
+                    <a href="#">
+                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-facebook.svg' ?>"/>
+                    </a>
+                    <a href="#">
+                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-twitter.svg' ?>"/>
+                    </a>
+                    <a href="#">
+                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-youtube.svg' ?>"/>
+                    </a>
                 </div>
             </div>
             <div class="row header show-for-large align-middle">
                 <div class="medium-3 columns">
-                    <a class="clearfix" href="/"><img class="logo" src="/images/logo-white.svg"/></a>
+                    <a class="clearfix" href="/">
+                        <img class="logo" src="<?= get_template_directory_uri() . '/images/logo-white.svg' ?>"/>
+                    </a>
                 </div>
                 <div class="medium-9 columns">
                     <ul class="dropdown header--dropdown menu" data-dropdown-menu>

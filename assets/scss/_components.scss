@@ -64,7 +64,7 @@ h1 {
 
 /* Body */
 body {
-  background-image: url('/images/background-texture.svg');
+  background-image: url('../images/background-texture.svg');
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -103,7 +103,7 @@ body.home {
 .mobile-header {
   position: relative;
   z-index: 100;
-  background: url('/images/header-background.svg') no-repeat;
+  background: url('../images/header-background.svg') no-repeat;
 }
 
 .home .mobile-header--menu span {
@@ -122,7 +122,7 @@ body.home {
 .menu-desktop {
   position: relative;
 
-  background: url('/images/header-background.svg') no-repeat center top;
+  background: url('../images/header-background.svg') no-repeat center top;
   background-size: 100%;
 
   z-index: 100;
@@ -232,7 +232,7 @@ body.home {
 /* Home */
 
 $header-small-top-margin: rem-calc(70);
-$header-xlarge-top-margin: rem-calc(236);
+$header-xlarge-top-margin: rem-calc(209);
 .header--home {
   position: relative;
   padding-bottom: rem-calc(10);
@@ -241,22 +241,22 @@ $header-xlarge-top-margin: rem-calc(236);
   z-index: 0;
   color: $white;
 
-  background: #009ed2 url('/images/bg-image-small.jpg') no-repeat right top;
+  background: #009ed2 url('../images/bg-image-small.jpg') no-repeat right top;
   background-size: cover;
 
   @include breakpoint(medium) {
-    background: #009ed2 url('/images/bg-image-large.jpg') no-repeat center top;
+    background: #009ed2 url('../images/bg-image-large.jpg') no-repeat center top;
     background-size: 1200px auto;
 
     margin-top: -$header-xlarge-top-margin;
     padding-top: $header-xlarge-top-margin;
 
-    padding-bottom: rem-calc(120);
+    padding-bottom: rem-calc(114);
   }
 
   @include breakpoint(xlarge) {
-    background: #009ed2 url('/images/bg-image-xlarge.jpg') no-repeat center top;
-    background-size: 1398px auto;
+    background: #009ed2 url('../images/bg-image-xlarge.jpg') no-repeat center top;
+    background-size: 1490px auto;
 
   }
 }
@@ -277,6 +277,7 @@ $header-xlarge-top-margin: rem-calc(236);
 
   @include breakpoint(xlarge) {
     right: rem-calc(0);
+    bottom: rem-calc(5);
   }
 }
 
@@ -292,6 +293,7 @@ $header-xlarge-top-margin: rem-calc(236);
   right: 25%;
 
   @include breakpoint(medium) {
+    bottom: rem-calc(5);
     right: 42.5%;
   }
   @include breakpoint(large) {
@@ -311,18 +313,18 @@ $header-xlarge-top-margin: rem-calc(236);
   right: 0;
   z-index: 10;
 
-  background-image: url('/images/abstract-small.svg');
+  background-image: url('../images/abstract-small.svg');
   background-repeat: no-repeat;
   background-position: center top;
 
   @include breakpoint(medium) {
-    background-image: url('/images/abstract-large.svg');
+    background-image: url('../images/abstract-large.svg');
     background-position: center top;
   }
 
   @include breakpoint(large) {
     background-size: auto auto;
-    background-image: url('/images/abstract-xlarge.svg');
+    background-image: url('../images/abstract-xlarge.svg');
   }
 }
 
@@ -330,7 +332,6 @@ $header-xlarge-top-margin: rem-calc(236);
   position: relative;
   z-index: 20;
   margin-top: rem-calc(20);
-
   margin-left: rem-calc(15);
 
   @include breakpoint(small only) {
@@ -342,6 +343,7 @@ $header-xlarge-top-margin: rem-calc(236);
   }
 
   @include breakpoint(large) {
+    margin-top: rem-calc(0);
     padding-left: rem-calc(60);
   }
 

@@ -10,12 +10,11 @@ add_theme_support('soil-nav-walker');
 add_theme_support('soil-relative-urls');
 
 add_theme_support('post-thumbnails');
-add_theme_support('title-tag')
+add_theme_support('title-tag');
 
 if ( function_exists('acf_add_options_page') ) {
     acf_add_options_page();
 }
-
 
 function cf_setup() {
     register_nav_menus( array(
