@@ -1,5 +1,7 @@
 var gulp = require('gulp');
 var $    = require('gulp-load-plugins')();
+var concat = require('gulp-concat');
+var minify = require('gulp-minify');
 
 var sassPaths = [
   'bower_components/normalize.scss/sass',
@@ -34,6 +36,6 @@ gulp.task('compress', function() {
     .pipe(gulp.dest('../js'));
 });
 
-gulp.task('default', ['sass'], function() {
+gulp.task('default', ['sass', 'compress'], function() {
   gulp.watch(['scss/**/*.scss'], ['sass']);
 });
