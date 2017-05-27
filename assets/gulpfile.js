@@ -40,3 +40,6 @@ gulp.task('default', ['sass', 'compress'], function() {
   gulp.watch(['scss/**/*.scss'], ['sass']);
   gulp.watch(['js/**/*.js'], ['compress']);
 });
+
+
+gulp.task('build', ['sass', 'compress']);
