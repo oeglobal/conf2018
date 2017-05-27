@@ -1,0 +1,490 @@
+/* Typography */
+h1 {
+  text-transform: uppercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Backgrounds */
+
+.u-background-red {
+  background-color: $boxRed;
+  transition: background-color 0.25s ease-out;
+
+  &:hover, &:focus {
+    background-color: darken($boxRed, 15%);
+  }
+}
+.u-background-blue {
+  background-color: $boxBlue;
+  transition: background-color 0.25s ease-out;
+
+  &:hover, &:focus {
+    background-color: darken($boxBlue, 15%);
+  }
+}
+.u-background-orange {
+  background-color: $boxOrange;
+  transition: background-color 0.25s ease-out;
+
+  &:hover, &:focus {
+    background-color: $orangeDark;
+  }
+}
+.u-background-purple {
+  background-color: $boxPurple;
+  transition: background-color 0.25s ease-out;
+
+  &:hover, &:focus {
+    background-color: darken($boxPurple, 15%);
+  }
+}
+
+/* Buttons */
+
+.button.hollow.white {
+  border: 2px solid;
+
+  &:hover, &:focus {
+    background-color: $white;
+    color: $blueDark;
+    border-color: $white;
+  }
+}
+
+.button.hollow.orange {
+  &:hover, &:focus {
+    background-color: $orange;
+    color: $white;
+    border-color: $orange;
+  }
+}
+
+/* Body */
+body {
+  background-image: url('/images/background-texture.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-position: center 0;
+
+  @include breakpoint(large) {
+    background-position: center rem-calc(150);
+  }
+}
+
+body.home {
+  background-image: none;
+}
+
+/* Header */
+.logo-small-container {
+  position: inherit;
+  z-index: 20;
+  margin: rem-calc(-50) 0 rem-calc(20);
+
+  a {
+    position: relative;
+  }
+}
+
+.logo-small {
+  width: auto;
+  height: auto;
+  max-height: rem-calc(105);
+}
+
+.menu-icon {
+  margin-top: rem-calc(-2);
+}
+
+.mobile-header {
+  position: relative;
+  z-index: 100;
+  background: url('/images/header-background.svg') no-repeat;
+}
+
+.home .mobile-header--menu span {
+  color: $white;
+}
+
+.js-off-canvas-overlay {
+  z-index: 140;
+}
+
+.home .menu-icon::after {
+  background: $white;
+  box-shadow: 0 7px 0 $white, 0 14px 0 $white;
+}
+
+.menu-desktop {
+  position: relative;
+
+  background: url('/images/header-background.svg') no-repeat center top;
+  background-size: 100%;
+
+  z-index: 100;
+}
+
+.home .mobile-header,
+.home .menu-desktop {
+  background: none;
+
+  @include breakpoint(medium down) {
+    background: $blueDark;
+  }
+}
+
+.off-canvas {
+  background-color: $orange;
+}
+
+.off-canvas a {
+  color: $white;
+}
+
+.off-canvas .submenu {
+  background-color: $orangeDark;
+}
+
+.logo {
+  max-height: rem-calc(103);
+}
+
+.header--social {
+  padding-top: rem-calc(28);
+  color: $white;
+  font-size: rem-calc(12);
+  text-transform: uppercase;
+}
+
+.home .header--social {
+  @include breakpoint(large){
+    margin-bottom: rem-calc(-25);
+  }
+}
+
+.social-icon {
+  height: rem-calc(26);
+  margin-left: rem-calc(5);
+  margin-top: rem-calc(-10);
+}
+
+.header--dropdown {
+  margin-top: rem-calc(15);
+}
+
+.home .menu.dropdown > li > a {
+  color: $white;
+}
+
+.menu.dropdown > li > a {
+  color: $black;
+  font-weight: bold;
+}
+
+.dropdown.menu>li.is-dropdown-submenu-parent>a {
+  margin-right: rem-calc(10);
+}
+
+.dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+  border-color: $black transparent transparent;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent.is-active >a::after {
+  border-color: $white transparent transparent;
+}
+
+.home .dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+  border-color: $white transparent transparent;
+}
+
+.menu .is-active {
+  background-color: $orange;
+}
+
+.menu.is-dropdown-submenu {
+  background-color: $orange;
+}
+
+.menu.dropdown .is-active a {
+  color: $white;
+  font-weight: bold;
+
+}
+
+.menu.is-dropdown-submenu {
+  li:hover,
+  li:active,
+  li:focus {
+    background-color: $orangeDark;
+  }
+}
+
+.off-canvas-content {
+  @include breakpoint(medium) {
+    margin-top: rem-calc(88);
+  }
+}
+
+/* Home */
+
+$header-small-top-margin: rem-calc(70);
+$header-xlarge-top-margin: rem-calc(236);
+.header--home {
+  position: relative;
+  padding-bottom: rem-calc(10);
+  padding-top: $header-small-top-margin;
+
+  z-index: 0;
+  color: $white;
+
+  background: #009ed2 url('/images/bg-image-small.jpg') no-repeat right top;
+  background-size: cover;
+
+  @include breakpoint(medium) {
+    background: #009ed2 url('/images/bg-image-large.jpg') no-repeat center top;
+    background-size: 1200px auto;
+
+    margin-top: -$header-xlarge-top-margin;
+    padding-top: $header-xlarge-top-margin;
+
+    padding-bottom: rem-calc(120);
+  }
+
+  @include breakpoint(xlarge) {
+    background: #009ed2 url('/images/bg-image-xlarge.jpg') no-repeat center top;
+    background-size: 1398px auto;
+
+  }
+}
+
+.header--home--license,
+.header--home--notice{
+  position: relative;
+  z-index: 200;
+}
+
+.header--home--license span {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: rem-calc(10);
+  font-size: rem-calc(11);
+  font-weight: bold;
+
+  @include breakpoint(xlarge) {
+    right: rem-calc(0);
+  }
+}
+
+.header--home--notice span {
+  position: absolute;
+  display: block;
+  bottom: 0;
+
+  font-size: rem-calc(11);
+  font-weight: bold;
+  text-transform: uppercase;
+
+  right: 25%;
+
+  @include breakpoint(medium) {
+    right: 42.5%;
+  }
+  @include breakpoint(large) {
+    right: 45%;
+  }
+
+}
+
+.home .contents-container::after {
+  display: block;
+  position: absolute;
+  content: " ";
+
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  z-index: 10;
+
+  background-image: url('/images/abstract-small.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  @include breakpoint(medium) {
+    background-image: url('/images/abstract-large.svg');
+    background-position: center top;
+  }
+
+  @include breakpoint(large) {
+    background-size: auto auto;
+    background-image: url('/images/abstract-xlarge.svg');
+  }
+}
+
+.header--home .contents {
+  position: relative;
+  z-index: 20;
+  margin-top: rem-calc(20);
+
+  margin-left: rem-calc(15);
+
+  @include breakpoint(small only) {
+    text-align: center;
+  }
+
+  @include breakpoint(medium) {
+    margin-left: calc(30%);
+  }
+
+  @include breakpoint(large) {
+    padding-left: rem-calc(60);
+  }
+
+  @include breakpoint(xlarge) {
+    padding-left: rem-calc(100);
+  }
+
+}
+
+.header--home h1 {
+  font-size: rem-calc(48);
+  font-weight: bold;
+  line-height: 1;
+}
+
+.header--home h2 {
+  font-size: rem-calc(20);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.header--home--cta {
+  margin-top: rem-calc(30);
+  margin-bottom: rem-calc(140);
+  font-size: rem-calc(16);
+
+  @include breakpoint(medium) {
+    margin-top: rem-calc(100);
+    margin-bottom: rem-calc(50);
+  }
+}
+
+$box-height: rem-calc(115);
+$box-small-height: rem-calc(88);
+
+.home--boxes {
+  position: relative;
+  background-color: #3cb3db;
+  z-index: 200;
+
+  @include breakpoint(medium) {
+    margin-top: -$box-height;
+  }
+}
+
+.home--boxes > .column {
+  min-height: $box-small-height;
+
+  @include breakpoint(medium) {
+    min-height: $box-height;
+  }
+}
+
+.home--boxes a {
+  display: block;
+  width: 100%;
+  height: $box-small-height;
+  line-height: $box-small-height;
+  text-align: center;
+
+  font-size: rem-calc(12);
+  font-weight: bold;
+  color: $white;
+  text-transform: uppercase;
+
+  @include breakpoint(small only) {
+    position: relative;
+    padding-top: rem-calc(20);
+    font-size: rem-calc(12);
+
+  }
+
+  @include breakpoint(medium) {
+    height: $box-height;
+    line-height: $box-height;
+    font-size: rem-calc(16);
+  }
+
+  @include breakpoint(large) {
+    font-size: rem-calc(25);
+  }
+}
+
+.home--boxes img {
+  width: rem-calc(33);
+
+  @include breakpoint(small only) {
+    position: absolute;
+    top: rem-calc(12);
+    left: calc(50% - 16px);
+  }
+
+  @include breakpoint(medium) {
+    margin-right: rem-calc(5);
+    width: rem-calc(40);
+  }
+
+  @include breakpoint(large) {
+    width: rem-calc(45);
+  }
+}
+
+.home--intro {
+  margin: rem-calc(100) auto;
+}
+
+.home--intro--text {
+  margin-top: rem-calc(45);
+}
+
+.home--intro--buttons {
+  margin-top: rem-calc(30);
+
+  & a:first-child {
+    margin-right: rem-calc(15);
+  }
+}
+
+/* Footer */
+
+footer {
+  margin-top: rem-calc(60);
+  font-size: rem-calc(12);
+}
+
+footer p {
+  @include breakpoint(medium) {
+    line-height: 2.9;
+  }
+}
+
+.license-image {
+  @include breakpoint(medium) {
+    max-height: rem-calc(22);
+    float: right;
+  }
+}
+
+/* Page / Post */
+
+.page--title {
+  margin-bottom: rem-calc(33);
+  font-size: rem-calc(24);
+  font-weight: bold;
+}
