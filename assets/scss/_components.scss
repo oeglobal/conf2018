@@ -256,7 +256,7 @@ $header-xlarge-top-margin: rem-calc(209);
 
   @include breakpoint(xlarge) {
     background: #009ed2 url('../images/bg-image-xlarge.jpg') no-repeat center top;
-    background-size: 1490px auto;
+    background-size: 1400px auto;
 
   }
 }
@@ -274,6 +274,7 @@ $header-xlarge-top-margin: rem-calc(209);
   right: rem-calc(10);
   font-size: rem-calc(11);
   font-weight: bold;
+  bottom: rem-calc(5);
 
   @include breakpoint(xlarge) {
     right: rem-calc(0);
@@ -309,15 +310,16 @@ $header-xlarge-top-margin: rem-calc(209);
 
   top: 0;
   bottom: 0;
-  left:0;
+  left: rem-calc(-3);
   right: 0;
   z-index: 10;
 
   background-image: url('../images/abstract-small.svg');
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: left top;
 
   @include breakpoint(medium) {
+    left: 0;
     background-image: url('../images/abstract-large.svg');
     background-position: center top;
   }
@@ -331,7 +333,7 @@ $header-xlarge-top-margin: rem-calc(209);
 .header--home .contents {
   position: relative;
   z-index: 20;
-  margin-top: rem-calc(20);
+  margin-top: rem-calc(40);
   margin-left: rem-calc(15);
 
   @include breakpoint(small only) {
@@ -340,6 +342,7 @@ $header-xlarge-top-margin: rem-calc(209);
 
   @include breakpoint(medium) {
     margin-left: calc(30%);
+    margin-top: rem-calc(20);
   }
 
   @include breakpoint(large) {
@@ -354,9 +357,19 @@ $header-xlarge-top-margin: rem-calc(209);
 }
 
 .header--home h1 {
-  font-size: rem-calc(48);
   font-weight: bold;
   line-height: 1;
+  font-size: rem-calc(36);
+  margin-bottom: rem-calc(20);
+
+  @include breakpoint(medium) {
+    margin-bottom: rem-calc(40);
+    font-size: rem-calc(48);
+  }
+
+  @include breakpoint(large) {
+    margin-bottom: 0;
+  }
 }
 
 .header--home h2 {
@@ -367,11 +380,16 @@ $header-xlarge-top-margin: rem-calc(209);
 }
 
 .header--home--cta {
-  margin-top: rem-calc(30);
-  margin-bottom: rem-calc(140);
+  margin-top: rem-calc(60);
+  margin-bottom: rem-calc(64);
   font-size: rem-calc(16);
 
   @include breakpoint(medium) {
+    margin-top: rem-calc(45);
+    margin-bottom: rem-calc(50);
+  }
+
+  @include breakpoint(large) {
     margin-top: rem-calc(100);
     margin-bottom: rem-calc(50);
   }

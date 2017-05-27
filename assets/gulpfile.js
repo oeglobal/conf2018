@@ -25,7 +25,7 @@ gulp.task('sass', function() {
 gulp.task('compress', function() {
   var files = [
     'bower_components/what-input/what-input.js',
-    'bower_components/foundation-sites/dist/foundation.js',
+    'bower_components/foundation-sites/dist/js/foundation.min.js',
     'js/app.js'
   ];
 
@@ -38,4 +38,5 @@ gulp.task('compress', function() {
 
 gulp.task('default', ['sass', 'compress'], function() {
   gulp.watch(['scss/**/*.scss'], ['sass']);
+  gulp.watch(['js/**/*.js'], ['compress']);
 });

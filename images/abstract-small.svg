@@ -1,1 +1,17 @@
-<svg width="373" height="663" viewBox="0 0 373 663" xmlns="http://www.w3.org/2000/svg"><title>abstract-graphic iphone-6</title><g fill="#F67F12" fill-rule="evenodd"><path d="M372.144 541.89l-202.61-27.05-40.25 98.362L0 625.137V667h150.371l53.644-99.553z"/><path d="M176.642 403.065l-63.035 85.542L0 462.094v115.34l101.119-.476 96.16-114.492 173.19 79.6zM372.614 543.802L203.306 603.05l-22.673 67.46 60.731.006 10.178-46.984zM93.872 1.04L0 0l1.298 137.668 368.336 403.536z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1186px" height="793px" viewBox="0 0 1186 793" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>abstract-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="abstract-small" fill="#F67F12">
+            <g id="abstract-graphic-1200x560">
+                <g id="Group">
+                    <path d="M1186,429.176 L1186,474.176 L436,455.5 L1186,429.176 Z M416.822,454.978 L253.405034,432.279 L220.933921,514.88 L2.99948704,534.113 L2.987,792.61 L137.658794,791 L281.213678,476.453 L416.822,454.978 Z" id="Shape"></path>
+                    <path d="M252.67,338.418 L199.733,410.255 L3,357.252285 L3,502.221391 L189.24,484.447 L269.994,388.297 L415.415,455.125 L252.67,338.418 Z M417.216,456.584 L275.044,506.35 L196,791 L299.684,791 L315.546,523.545 L417.216,456.584 Z M183.2,0.831 L0.733,0.831 L414.715,454.402 L183.2,0.831 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

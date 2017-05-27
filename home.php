@@ -62,7 +62,7 @@
 
 <div class="row home--intro">
     <div class="small-10 small-offset-1 medium-5 large-5 medium-offset-1 column">
-        <img src="<?= get_template_directory_uri() . '/images/logo.svg' ?>"/>
+        <a href="<?= home_url() ?>"><img src="<?= get_template_directory_uri() . '/images/logo.svg' ?>"/></a>
     </div>
     <div class="small-10 small-offset-1 medium-5 medium-offset-0 large-5 column">
         <p class="home--intro--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

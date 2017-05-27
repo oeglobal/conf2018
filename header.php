@@ -54,7 +54,7 @@
             </div>
             <div class="row header show-for-large align-middle">
                 <div class="medium-3 columns">
-                    <a class="clearfix" href="/">
+                    <a class="clearfix" href="<?= home_url(); ?>">
                         <img class="logo" src="<?= get_template_directory_uri() . '/images/logo-white.svg' ?>"/>
                     </a>
                 </div>
