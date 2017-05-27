@@ -23,18 +23,15 @@
         </div>
 
         <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-            <ul class="vertical menu" data-drilldown>
-                <li>
-                    <a href="#Item-1">Item 1</a>
-                    <ul class="vertical menu">
-                        <li><a href="#Item-1A">Item 1A</a></li>
-                        <li><a href="#Item-1A">Item 1A</a></li>
-                        <li><a href="#Item-1A">Item 1A</a></li>
-                        <li><a href="#Item-1A">Item 1A</a></li>
-                    </ul>
-                </li>
-                <li><a href="#Item-2">Item 2</a></li>
-            </ul>
+            <?php wp_nav_menu(array(
+                    'container' => false,
+                    'theme_location' => 'primary',
+                    'menu_class' => 'vertical menu',
+                    'items_wrap'      => '<ul id="%1$s" class="%2$s" data-dropdown-menu>%3$s</ul>',
+                    'fallback_cb' => false,
+                    'walker' => new F6_TOPBAR_MENU_WALKER(),
+                  )); 
+            ?>
         </div>
 
         <div class="menu-desktop">
@@ -63,24 +60,15 @@
                     </a>
                 </div>
                 <div class="medium-9 columns">
-                    <ul class="dropdown header--dropdown menu" data-dropdown-menu>
-                        <li>
-                            <a href="#">About</a>
-                            <ul class="menu">
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Plan Your Journey</a></li>
-                                <li><a href="#">Program</a></li>
-                                <li><a href="#">Keynotes</a></li>
-                                <li><a href="#">Registration</a></li>
-                                <li><a href="#">Sponsors</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Plan Your Journey</a></li>
-                        <li><a href="#">Program</a></li>
-                        <li><a href="#">Keynotes</a></li>
-                        <li><a href="#">Registration</a></li>
-                        <li><a href="#">Sponsors</a></li>
-                    </ul>
+                    <?php wp_nav_menu(array(
+                                        'container' => false,
+                                        'theme_location' => 'primary',
+                                        'menu_class' => 'dropdown header--dropdown menu',
+                                        'items_wrap'      => '<ul id="%1$s" class="%2$s" data-dropdown-menu>%3$s</ul>',
+                                        'fallback_cb' => false,
+                                        'walker' => new F6_TOPBAR_MENU_WALKER(),
+                                      )); 
+                    ?>
                 </div>
             </div>
         </div>

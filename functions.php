@@ -18,7 +18,7 @@ if ( function_exists('acf_add_options_page') ) {
 
 function cf_setup() {
     register_nav_menus( array(
-        'primary' => __( 'Primary Menu', 'op' ),
+        'primary' => __( 'Primary Menu', 'cf' ),
     ) );
 }
 add_action( 'after_setup_theme', 'cf_setup' );
