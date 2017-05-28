@@ -512,3 +512,13 @@ footer p {
   font-size: rem-calc(24);
   font-weight: bold;
 }
+
+/* Wordpress images */
+.wp-caption {
+  max-width: 100%;
+}
+
+.wp-caption-text {
+  font-size: rem-calc(14);
+  font-style: italic;
+}
