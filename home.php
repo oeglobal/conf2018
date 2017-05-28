@@ -34,7 +34,7 @@
 <div style="background-color: #3cb3db;">
     <div class="row align-middle home--boxes">
         <div class="small-3 column u-background-orange">
-            <a href="#">
+            <a href="<?= home_url() . '/venue/' ?>">
                 <img src="<?= get_template_directory_uri() . '/images/icon-location.svg' ?>"/>
                 Venue
             </a>

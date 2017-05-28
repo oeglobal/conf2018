@@ -38,13 +38,13 @@
             <div class="row header header--social show-for-large text-right">
                 <div class="medium-12 columns">
                     Follow us for updates:
-                    <a href="#">
-                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-facebook.svg' ?>"/>
-                    </a>
-                    <a href="#">
+                    <a href="https://twitter.com/oeconsortium" target="_blank">
                         <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-twitter.svg' ?>"/>
                     </a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/OEConsortium/" target="_blank">
+                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-facebook.svg' ?>"/>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC-jcvZ6z94387QDu52g9VNA" target="_blank">
                         <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-youtube.svg' ?>"/>
                     </a>
                 </div>
