@@ -517,6 +517,29 @@ $box-small-height: rem-calc(88);
   margin-bottom: rem-calc(46);
 }
 
+/* Sponsors */
+
+.home--sponsors {
+  padding-top: rem-calc(100);
+  padding-bottom: rem-calc(50);
+
+  text-transform: uppercase;
+}
+
+.home--sponsors h2 { 
+  margin-bottom: rem-calc(25);
+  font-size: rem-calc(24);
+  font-weight: bold;
+}
+
+.home--sponsors img {
+  max-height: rem-calc(80);
+}
+
+.sponsors--heading {
+  margin-bottom: rem-calc(30);
+}
+
 /* Footer */
 
 footer {

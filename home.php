@@ -102,15 +102,14 @@
 </div>
 
 <?php if ( have_rows('sponsors', 'options') ) : ?>
-    <div class="row home--sponsors">
-      <div class="small-12 columns text-center">
+    <div class="row home--sponsors align-center">
+        <div class="small-12 columns text-center">
             <h2><?php the_field('sponsors_title', 'options'); ?></h2>
         </div>
 
-      <div class="row align-center">
         <?php while ( have_rows('sponsors', 'options') ) : the_row(); ?>
           <?php if( get_row_layout() === 'heading' ) : ?>
-            <div class="small-12 columns text-center">
+            <div class="small-12 columns text-center sponsors--heading">
               <h3><?php the_sub_field('text'); ?></h3>
             </div>
           <?php endif; ?>
@@ -128,7 +127,7 @@
             </div>
           <?php endif; ?>
         <?php endwhile; ?>
-      </div>
+        
     </div>
 <?php endif; ?>
 
