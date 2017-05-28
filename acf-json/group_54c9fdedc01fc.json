@@ -1,0 +1,219 @@
+{
+    "key": "group_54c9fdedc01fc",
+    "title": "Presentation",
+    "fields": [
+        {
+            "key": "field_54c9fdf91b250",
+            "label": "Author(s)",
+            "name": "presentation_author",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54ca00dab17ce",
+            "label": "Institution(s)",
+            "name": "presentation_institution",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_54c9fe2a1b252",
+            "label": "Track",
+            "name": "presentation_track",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "vertical",
+            "choices": {
+                "integration": "Integration of Open Practices",
+                "collaboration": "Collaboration",
+                "strategy": "Open Education as Strategy",
+                "research": "Research to Advance Open Education",
+                "initiatives": "Open Education Initiatives in Europe",
+                "actionlab": "Action Lab",
+                "poster: Poster": "poster: Poster"
+            },
+            "default_value": "",
+            "other_choice": 1,
+            "save_other_choice": 0,
+            "allow_null": 1,
+            "return_format": "value"
+        },
+        {
+            "key": "field_54cd31c3de2f1",
+            "label": "Abstract (PDF)",
+            "name": "presentation_pdf",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_size": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_54d0b4b89e900",
+            "label": "Full paper (PDF)",
+            "name": "presentation_paper",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_size": 0,
+            "max_size": 0,
+            "mime_types": ""
+        },
+        {
+            "key": "field_54cd31dade2f2",
+            "label": "Slideshare",
+            "name": "presentation_slideshare",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5877adfd78f01",
+            "label": "Easy chair paper number",
+            "name": "presentation_easychair_id",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_58985ab80f3ea",
+            "label": "Presentation Length",
+            "name": "presentation_length",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "vertical",
+            "choices": {
+                "30min": "30 minutes",
+                "60min": "1 hour",
+                "90min": "1 hour 30 minutes",
+                "120min": "2 hours"
+            },
+            "default_value": "",
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "allow_null": 1,
+            "return_format": "array"
+        },
+        {
+            "key": "field_58985b13f3370",
+            "label": "Presentation Type",
+            "name": "presentation_type",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "actionlab": "Action Lab",
+                "panel": "Panel",
+                "flipped": "Flipped Presentation"
+            },
+            "allow_null": 1,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "presentation"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1488120303
+}
