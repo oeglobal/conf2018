@@ -70,7 +70,7 @@
         <p>OE Global 2018 will take place from 24-26 April 2018 in Delft, the Netherlands, hosted by the Open Education Consortium and Delft University of Technology.  The theme of OE Global 2018 is Transforming Education through Open.</p>
 
         <p class="home--intro--buttons">
-            <a href="#" class="button orange hollow text-uppercase">About the Event</a>
+            <a href="<?= home_url() . '/welcome/' ?>" class="button orange hollow text-uppercase">About the Event</a>
             <a href="http://conference.oeconsortium.org/2017/" target="_blank"
                class="button orange hollow text-uppercase">View 2017 Conference</a>
         </p>
