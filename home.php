@@ -88,16 +88,49 @@
     </div>
     <div class="small-12 columns"></div>
     <div class="small-10 medium-3 columns">
-        <a href="#" class="button hollow white expanded">Learn more</a>
+        <a href="http://www.oeconsortium.org/projects/open-education-awards-for-excellence/" class="button hollow white expanded" target="_blank">Learn more</a>
     </div>
+    <?php /*
     <div class="small-10 medium-3 columns">
         <a href="#" class="button hollow white expanded">Submit Nomination</a>
     </div>
+    */ ?>
     <div class="small-10 medium-3 columns">
-        <a href="#" class="button hollow white expanded">View Past Awardees</a>
+        <a href="http://www.oeconsortium.org/projects/open-education-awards-for-excellence/2017-winners-of-oe-awards/" class="button hollow white expanded" target="_blank">View Past Awardees</a>
     </div>
 </div>
 </div>
+
+<?php if ( have_rows('sponsors', 'options') ) : ?>
+    <div class="row home--sponsors">
+      <div class="small-12 columns text-center">
+            <h2><?php the_field('sponsors_title', 'options'); ?></h2>
+        </div>
+
+      <div class="row align-center">
+        <?php while ( have_rows('sponsors', 'options') ) : the_row(); ?>
+          <?php if( get_row_layout() === 'heading' ) : ?>
+            <div class="small-12 columns text-center">
+              <h3><?php the_sub_field('text'); ?></h3>
+            </div>
+          <?php endif; ?>
+
+          <?php if( get_row_layout() === 'sponsor' ) : ?>
+            <div class="small-6 medium-3 columns">
+              <?php $image = get_sub_field('logo'); ?>
+              <?php if ( get_sub_field('link') ) : ?>
+                <a href="<?php the_sub_field('link'); ?>">
+                  <img src="<?php echo $image['sizes']['medium']; ?>" alt="<?php echo $image['title']; ?>" />
+                </a>
+              <?php else : ?>
+                <img src="<?php echo $image['sizes']['medium']; ?>" alt="<?php echo $image['title']; ?>" />
+              <?php endif; ?>
+            </div>
+          <?php endif; ?>
+        <?php endwhile; ?>
+      </div>
+    </div>
+<?php endif; ?>
 
 <div class="row home--social">
     <div class="small-12 columns text-center">
@@ -106,7 +139,7 @@
     </div>
 
     <div class="small-12 columns">
-        <iframe id="storyfeed" src="http://oeglobal.storyfeed.me/?embed&maxposts=9" style="border: 0px; height: 300px; width: 100%;" scrolling="no" allowfullscreen></iframe>
+        <iframe id="storyfeed" src="http://oeglobal.storyfeed.me/?embed&maxposts=12" style="border: 0px; height: 300px; width: 100%;" scrolling="no" allowfullscreen></iframe>
     </div>
 </div>
 
