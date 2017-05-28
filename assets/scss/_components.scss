@@ -485,6 +485,38 @@ $box-small-height: rem-calc(88);
   }
 }
 
+/* Awards */
+.home--awards {
+  padding-top: rem-calc(70);
+  padding-bottom: rem-calc(98);
+
+  background: #009ed2 url('../images/awards.jpg') no-repeat right top;
+  background-size: cover;
+}
+
+.home--awards p {
+  margin: rem-calc(43) auto rem-calc(100);
+  color: $white;
+  text-align: center;
+}
+
+.home--awards .button {
+  text-transform: uppercase;
+}
+
+/* Social */
+.home--social h2 {
+  margin-top: rem-calc(80);
+  font-size: rem-calc(24);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.home--social h3 {
+  font-size: rem-calc(18);
+  margin-bottom: rem-calc(46);
+}
+
 /* Footer */
 
 footer {

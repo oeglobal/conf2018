@@ -77,4 +77,38 @@
     </div>
 </div>
 
+<div>
+<div class="row home--awards align-center">
+    <div class="small-12 text-center columns">
+        <a href="<?= home_url() ?>"><img src="<?= get_template_directory_uri() . '/images/awards-header.svg' ?>"/></a>
+    </div>
+
+    <div class="small-10 medium-8 columns">
+        <p>The Open Education Awards for Excellence provide annual recognition to outstanding contributions in the Open Education community. These awards recognize distinctive Open Educational Resources, Open Projects & Initiatives, as well as exemplary leaders in Open Education worldwide.</p>
+    </div>
+    <div class="small-12 columns"></div>
+    <div class="small-10 medium-3 columns">
+        <a href="#" class="button hollow white expanded">Learn more</a>
+    </div>
+    <div class="small-10 medium-3 columns">
+        <a href="#" class="button hollow white expanded">Submit Nomination</a>
+    </div>
+    <div class="small-10 medium-3 columns">
+        <a href="#" class="button hollow white expanded">View Past Awardees</a>
+    </div>
+</div>
+</div>
+
+<div class="row home--social">
+    <div class="small-12 columns text-center">
+        <h2>People talking about</h2>
+        <h3><img src="<?= get_template_directory_uri() . '/images/twitter.svg' ?>"/>&nbsp;&nbsp;#OEGLOBAL2018</h3>
+    </div>
+
+    <div class="small-12 columns">
+        <iframe id="storyfeed" src="http://oeglobal.storyfeed.me/?embed&maxposts=9" style="border: 0px; height: 300px; width: 100%;" scrolling="no" allowfullscreen></iframe>
+    </div>
+</div>
+
+
 <?php get_footer(); ?>
