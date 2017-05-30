@@ -5,6 +5,16 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<?php bloginfo('name'); ?>" >
+  <meta property="og:description" content="OE Global 2018 will take place from 24-26 April 2018 in Delft, the Netherlands, hosted by the Open Education Consortium and Delft University of Technology. The theme of OE Global 2018 is Transforming Education through Open." >
+  <meta property="og:url" content="<?php bloginfo('url'); ?>" >
+  <meta property="og:site_name" content="<?php bloginfo('name'); ?>" >
+
+  <meta property="og:image" content="<?php echo get_template_directory_uri() . '/images/facebook.jpg'; ?>">
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
     <?php wp_head(); ?>
 </head>
 
