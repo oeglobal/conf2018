@@ -77,7 +77,7 @@
     </div>
 </div>
 
-
+<?php /*
 <div class="row home--info align-center">
     <div class="small-10 medium-3 columns">
         <a href="#" class="button hollow white expanded">About Delft</a>
@@ -100,6 +100,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
     </div>
 </div>
+*/ ?>
 
 <?php if ( have_rows('home_gallery', 'options') ) : ?>
 <div class="home--gallery">
