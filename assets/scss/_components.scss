@@ -550,6 +550,24 @@ $box-small-height: rem-calc(88);
   border: 1px solid $white;
 }
 
+/* Info */
+
+.home--info {
+  padding-top: rem-calc(40);
+  padding-bottom: rem-calc(100);
+  background-color: $orangeDark;
+}
+
+.blue {
+  display: block;
+  height: rem-calc(100);
+  width: 100%;
+}
+
+.venue-blue {
+  background-image: url('../images/venue-blue.jpg');
+}
+
 /* Footer */
 
 footer {

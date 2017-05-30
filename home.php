@@ -77,6 +77,30 @@
     </div>
 </div>
 
+
+<div class="row home--info align-center">
+    <div class="small-10 medium-3 columns">
+        <a href="#" class="button hollow white expanded">About Delft</a>
+    </div>
+    <div class="small-10 medium-3 columns">
+        <a href="#" class="button hollow white expanded">More Videos</a>
+    </div>
+    <div class="small-10 medium-3 columns">
+        <a href="#" class="button hollow white expanded">More Photos</a>
+    </div>
+
+    <div class="medium-4 medium-offset-1 columns">
+        <a href="#" class="blue venue-blue">
+            <span class="blue--header">Venue Map</span>
+            <span class="blue--subheader">Click to view</span>
+        </a>
+    </div>
+    <div class="medium-5">
+        <h3>How to go</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+    </div>
+</div>
+
 <?php if ( have_rows('home_gallery', 'options') ) : ?>
 <div class="home--gallery">
 
