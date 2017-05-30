@@ -541,6 +541,15 @@ $box-small-height: rem-calc(88);
   margin-bottom: rem-calc(30);
 }
 
+/* Home gallery */
+.home--gallery {
+  margin-bottom: rem-calc(100);
+}
+
+.home--gallery-item img {
+  border: 1px solid $white;
+}
+
 /* Footer */
 
 footer {

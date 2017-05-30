@@ -26,6 +26,7 @@ gulp.task('compress', function() {
   var files = [
     'bower_components/what-input/what-input.js',
     'bower_components/foundation-sites/dist/js/foundation.min.js',
+    'bower_components/magnific-popup/dist/jquery.magnific-popup.min.js',
     'js/app.js'
   ];
 

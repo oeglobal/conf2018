@@ -20,6 +20,8 @@ function cf_setup() {
     register_nav_menus( array(
         'primary' => __( 'Primary Menu', 'cf' ),
     ) );
+
+    add_image_size( 'home-small', 362, 240, true);
 }
 add_action( 'after_setup_theme', 'cf_setup' );
 

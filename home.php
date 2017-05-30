@@ -77,6 +77,32 @@
     </div>
 </div>
 
+<?php if ( have_rows('home_gallery', 'options') ) : ?>
+<div class="home--gallery">
+
+    <div class="row collapsed">
+        <?php while ( have_rows('home_gallery', 'options') ) : the_row(); ?>
+          <div class="small-6 medium-3">
+            <?php $image = get_sub_field('image'); ?>
+
+            <a
+              class="home--gallery-item"
+              title="<?php the_sub_field('attribution'); ?>"
+              href="<?php echo $image['sizes']['large']; ?>"
+              >
+
+              <img
+                src="<?php echo $image['sizes']['home-small']; ?>"
+                
+                />
+            </a>
+          </div>
+        <?php endwhile; ?>
+    </div>
+</div>
+<?php endif; ?>
+
+
 <div class="home--awards">
     <div class="row align-center">
         <div class="small-12 text-center columns">
