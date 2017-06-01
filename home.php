@@ -48,13 +48,13 @@
             </a>
         </div>
         <div class="small-3 column u-background-red">
-            <a href="#">
+            <a href="<?= get_permalink( get_page_by_path('call-for-proposals') ); ?>">
                 <img src="<?= get_template_directory_uri() . '/images/icon-speaker.svg' ?>" alt="" />
-                Speakers
+                Proposals
             </a>
         </div>
         <div class="small-3 column u-background-purple">
-            <a href="<?= get_permalink( get_page_by_path('call-for-proposals') ); ?>">
+            <a href="http://www.oeconsortium.org/projects/open-education-awards-for-excellence/2017-winners-of-oe-awards/">
                 <img src="<?= get_template_directory_uri() . '/images/icon-award.svg' ?>" alt="" />
                 Awards
             </a>
