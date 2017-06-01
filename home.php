@@ -13,7 +13,8 @@
             <h2>24-26 April 2018</h2>
             <h2>Delft, Netherlands</h2>
 
-            <a href="<?= home_url() . '/register/' ?>" class="button white hollow header--home--cta">Register</a>
+
+            <a href="<?= home_url() . '/why-attend-oe-global/' ?>" class="button white hollow header--home--cta">Why should I attend?</a>
         </div>
         <div class="small-12 columns header--home--notice">
              <span>
@@ -34,15 +35,16 @@
 <div style="background-color: #3cb3db;">
     <div class="row align-middle home--boxes">
         <div class="small-3 column u-background-orange">
-            <a href="<?= home_url() . '/venue/' ?>">
+            <a href="<?= get_permalink( get_page_by_path('venue') ); ?>">
                 <img src="<?= get_template_directory_uri() . '/images/icon-location.svg' ?>"/>
                 Venue
             </a>
         </div>
         <div class="small-3 column u-background-blue">
-            <a href="#">
+            <a href="<?= get_permalink( get_page_by_path('plan-your-travel') ); ?>">
                 <img src="<?= get_template_directory_uri() . '/images/icon-calendar.svg' ?>"/>
-                Schedule
+                <?php /* Schedule */ ?>
+                Plan
             </a>
         </div>
         <div class="small-3 column u-background-red">
@@ -52,7 +54,7 @@
             </a>
         </div>
         <div class="small-3 column u-background-purple">
-            <a href="#">
+            <a href="<?= get_permalink( get_page_by_path('call-for-proposals') ); ?>">
                 <img src="<?= get_template_directory_uri() . '/images/icon-award.svg' ?>"/>
                 Awards
             </a>
