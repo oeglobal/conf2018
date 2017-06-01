@@ -9,7 +9,7 @@
 
     <div class="row contents-container">
         <div class="large-8 xlarge-9 medium-offset-4 column contents">
-            <h1>Transforming Education through Open</h1>
+            <h1>Transforming Education through Open Approaches</h1>
             <h2>24-26 April 2018</h2>
             <h2>Delft, Netherlands</h2>
 
