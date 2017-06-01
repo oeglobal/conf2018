@@ -18,13 +18,13 @@
         </div>
         <div class="small-12 columns header--home--notice">
              <span>
-                <img src="<?= get_template_directory_uri() . '/images/down.svg' ?>"/>
+                <img src="<?= get_template_directory_uri() . '/images/down.svg' ?>" alt="" />
                 Scroll down for more info
             </span>
         </div>
         <div class="small-12 columns header--home--license hide-for-small-only">
             <span>
-                <img src="<?= get_template_directory_uri() . '/images/cc-white.svg' ?>"/>
+                <img src="<?= get_template_directory_uri() . '/images/cc-white.svg' ?>" alt="Creative Commons By Logo" />
 
                 <?php get_template_part('images/cc-white.svg'); ?> WILLEM VAN VALKENBURG
             </span>
@@ -36,26 +36,26 @@
     <div class="row align-middle home--boxes">
         <div class="small-3 column u-background-orange">
             <a href="<?= get_permalink( get_page_by_path('venue') ); ?>">
-                <img src="<?= get_template_directory_uri() . '/images/icon-location.svg' ?>"/>
+                <img src="<?= get_template_directory_uri() . '/images/icon-location.svg' ?>" alt="" />
                 Venue
             </a>
         </div>
         <div class="small-3 column u-background-blue">
             <a href="<?= get_permalink( get_page_by_path('plan-your-travel') ); ?>">
-                <img src="<?= get_template_directory_uri() . '/images/icon-calendar.svg' ?>"/>
+                <img src="<?= get_template_directory_uri() . '/images/icon-calendar.svg' ?>" alt="" />
                 <?php /* Schedule */ ?>
                 Plan
             </a>
         </div>
         <div class="small-3 column u-background-red">
             <a href="#">
-                <img src="<?= get_template_directory_uri() . '/images/icon-speaker.svg' ?>"/>
+                <img src="<?= get_template_directory_uri() . '/images/icon-speaker.svg' ?>" alt="" />
                 Speakers
             </a>
         </div>
         <div class="small-3 column u-background-purple">
             <a href="<?= get_permalink( get_page_by_path('call-for-proposals') ); ?>">
-                <img src="<?= get_template_directory_uri() . '/images/icon-award.svg' ?>"/>
+                <img src="<?= get_template_directory_uri() . '/images/icon-award.svg' ?>" alt="" />
                 Awards
             </a>
         </div>
@@ -64,7 +64,7 @@
 
 <div class="row home--intro">
     <div class="small-10 small-offset-1 medium-5 large-5 medium-offset-1 column">
-        <a href="<?= home_url() ?>"><img src="<?= get_template_directory_uri() . '/images/logo.svg' ?>"/></a>
+        <a href="<?= home_url() ?>"><img src="<?= get_template_directory_uri() . '/images/logo.svg' ?>" alt="Open Education Global 2018 logo" /></a>
     </div>
     <div class="small-10 small-offset-1 medium-5 medium-offset-0 large-5 column">
         <p class="home--intro--text">The Open Education Global Conference is where the world meets to discuss how opening education helps us achieve universal access, equity, innovation and opportunity in education. The OE Global conference is the most internationally diverse conference devoted exclusively to open education, attracting researchers, practitioners, policy makers, educators and students from more than 35 countries to discuss and explore how Open Education advances educational practices around the world.</p>
@@ -120,7 +120,7 @@
 
               <img
                 src="<?php echo $image['sizes']['home-small']; ?>"
-                
+                alt="<?php the_sub_field('attribution'); ?>"
                 />
             </a>
           </div>
@@ -133,7 +133,7 @@
 <div class="home--awards">
     <div class="row align-center">
         <div class="small-12 text-center columns">
-            <a href="<?= home_url() ?>"><img src="<?= get_template_directory_uri() . '/images/awards-header.svg' ?>"/></a>
+            <a href="<?= home_url() ?>"><img src="<?= get_template_directory_uri() . '/images/awards-header.svg' ?>" alt="Open Education Awards logo" /></a>
         </div>
 
         <div class="small-10 medium-8 columns">
@@ -187,7 +187,7 @@
 <div class="home--social">
     <div class="small-12 columns text-center">
         <h2>People talking about</h2>
-        <h3><img src="<?= get_template_directory_uri() . '/images/twitter.svg' ?>"/>&nbsp;&nbsp;#OEGLOBAL2018</h3>
+        <h3><img src="<?= get_template_directory_uri() . '/images/twitter.svg' ?>" alt="Twitter logo" />&nbsp;&nbsp;#OEGLOBAL2018</h3>
     </div>
 
     <div class="small-12 columns">

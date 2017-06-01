@@ -49,13 +49,13 @@
                 <div class="medium-12 columns">
                     Follow us for updates:
                     <a href="https://twitter.com/oeconsortium" target="_blank">
-                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-twitter.svg' ?>"/>
+                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-twitter.svg' ?>" alt="Follow us on Twitter"/>
                     </a>
                     <a href="https://www.facebook.com/OEConsortium/" target="_blank">
-                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-facebook.svg' ?>"/>
+                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-facebook.svg' ?>" alt="Follow us on Facebook"/>
                     </a>
                     <a href="https://www.youtube.com/channel/UC-jcvZ6z94387QDu52g9VNA" target="_blank">
-                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-youtube.svg' ?>"/>
+                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-youtube.svg' ?>" alt="Follow us on YouTube" />
                     </a>
                 </div>
             </div>
@@ -63,9 +63,9 @@
                 <div class="medium-3 columns">
                     <a class="clearfix" href="<?= home_url(); ?>">
                         <?php if ( is_home() ) : ?>
-                            <img class="logo" src="<?= get_template_directory_uri() . '/images/logo-white.svg' ?>"/>
+                            <img class="logo" src="<?= get_template_directory_uri() . '/images/logo-white.svg' ?>" alt="OE Global 2018 logo" />
                         <?php else : ?>
-                            <img class="logo" src="<?= get_template_directory_uri() . '/images/logo.svg' ?>"/>
+                            <img class="logo" src="<?= get_template_directory_uri() . '/images/logo.svg' ?>" alt="OE Global 2018 logo" />
                         <?php endif; ?>
                     </a>
                 </div>
