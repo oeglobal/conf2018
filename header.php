@@ -11,7 +11,7 @@
   <meta property="og:url" content="<?php bloginfo('url'); ?>" >
   <meta property="og:site_name" content="<?php bloginfo('name'); ?>" >
 
-  <meta property="og:image" content="<?php echo get_template_directory_uri() . '/images/facebook.jpg'; ?>">
+  <meta property="og:image" content="<?php echo get_template_directory_uri() . '/images/facebook2.jpg'; ?>">
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
