@@ -187,7 +187,7 @@
 <div class="home--social">
     <div class="small-12 columns text-center">
         <h2>People talking about</h2>
-        <h3><img src="<?= get_template_directory_uri() . '/images/twitter.svg' ?>" alt="Twitter logo" />&nbsp;&nbsp;#OEGLOBAL2018</h3>
+        <h3><img src="<?= get_template_directory_uri() . '/images/twitter.svg' ?>" alt="Twitter logo" />&nbsp;&nbsp;#OEGLOBAL18</h3>
     </div>
 
     <div class="small-12 columns">
