@@ -190,8 +190,12 @@
         <h3><img src="<?= get_template_directory_uri() . '/images/twitter.svg' ?>" alt="Twitter logo" />&nbsp;&nbsp;#OEGLOBAL18</h3>
     </div>
 
-    <div class="small-12 columns">
-        <iframe id="storyfeed" src="http://oeglobal.storyfeed.me/?embed&maxposts=24" style="border: 0px; height: 300px; width: 100%;" scrolling="no" allowfullscreen></iframe>
+    <div class="row expanded">
+        <?php foreach (get_tweets() as $tweet) : ?>
+            <div class="small-12 medium-4 large-3 column clearfix">
+                <?php echo do_shortcode("[tweet $tweet hide_thread='true' hide_media='true' align='left']"); ?>
+            </div>
+        <?php endforeach; ?>
     </div>
 </div>
 
