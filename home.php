@@ -54,7 +54,7 @@
             </a>
         </div>
         <div class="small-3 column u-background-purple">
-            <a href="http://www.oeconsortium.org/projects/open-education-awards-for-excellence/2017-winners-of-oe-awards/">
+            <a href="<?= get_permalink( get_page_by_path('oe-awards') ); ?>">
                 <img src="<?= get_template_directory_uri() . '/images/icon-award.svg' ?>" alt="" />
                 Awards
             </a>
@@ -141,7 +141,7 @@
         </div>
         <div class="small-12 columns"></div>
         <div class="small-10 medium-3 columns">
-            <a href="http://www.oeconsortium.org/projects/open-education-awards-for-excellence/" class="button hollow white expanded" target="_blank">Learn more</a>
+            <a href="<?= get_permalink( get_page_by_path('oe-awards') ); ?>" class="button hollow white expanded" target="_blank">Learn more</a>
         </div>
         <?php /*
         <div class="small-10 medium-3 columns">
