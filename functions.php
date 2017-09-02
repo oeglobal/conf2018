@@ -42,4 +42,5 @@ require get_template_directory() . '/inc/actions.php';
 require get_template_directory() . '/inc/filters.php';
 require get_template_directory() . '/inc/post_types.php';
 require get_template_directory() . '/inc/extras.php';
+require get_template_directory() . '/inc/api.php';
 require get_template_directory() . '/inc/gw-gravity-forms-better-pre-submission-confirmation.php';
