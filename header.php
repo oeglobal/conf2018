@@ -57,6 +57,9 @@
                     <a href="https://www.youtube.com/channel/UC-jcvZ6z94387QDu52g9VNA" target="_blank">
                         <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-youtube.svg' ?>" alt="Follow us on YouTube" />
                     </a>
+                    <a href="http://www.oeconsortium.org/news/newsletter/" target="_blank">
+                        <img class="social-icon" src="<?= get_template_directory_uri() . '/images/icon-newsletter.svg' ?>" alt="Follow us on YouTube" />
+                    </a>
                 </div>
             </div>
             <div class="row header show-for-large align-middle">
