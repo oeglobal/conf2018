@@ -1,7 +1,7 @@
 <?php
 
 add_theme_support('soil-clean-up');
-add_theme_support('soil-disable-asset-versioning');
+//add_theme_support('soil-disable-asset-versioning');
 add_theme_support('soil-disable-trackbacks');
 add_theme_support('soil-google-analytics', 'UA-4248822-10');
 add_theme_support('soil-jquery-cdn');
@@ -31,7 +31,7 @@ function cf_scripts() {
     if ( is_admin() ) {
         wp_enqueue_style( 'cf-admin', get_template_directory_uri() . '/css/admin.css' );
     } else {
-          wp_enqueue_style( 'cf-style', get_template_directory_uri() . '/css/app.css' );
+          wp_enqueue_style( 'cf-style', get_template_directory_uri() . '/css/app.css', array(), '123456' );
           wp_enqueue_script( 'cf-script', get_template_directory_uri() . '/js/app.js', array( 'jquery' ), '', true );
     }
 }
