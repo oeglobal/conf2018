@@ -608,6 +608,17 @@ footer p {
   font-weight: bold;
 }
 
+.post--title {
+  margin-bottom: rem-calc(15);
+  font-size: rem-calc(24);
+  font-weight: bold;
+}
+
+.post--author {
+  margin-bottom: rem-calc(15);
+}
+
+
 /* Wordpress images */
 .wp-caption {
   max-width: 100%;
