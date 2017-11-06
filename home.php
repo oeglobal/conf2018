@@ -48,9 +48,9 @@
             </a>
         </div>
         <div class="small-3 column u-background-red">
-            <a href="<?= get_permalink( get_page_by_path('call-for-proposals') ); ?>">
+            <a href="/2018/blog/">
                 <img src="<?= get_template_directory_uri() . '/images/icon-speaker.svg' ?>" alt="" />
-                Proposals
+                Blog
             </a>
         </div>
         <div class="small-3 column u-background-purple">
