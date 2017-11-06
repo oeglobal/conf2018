@@ -72,7 +72,7 @@
                         <?php endif; ?>
                     </a>
                 </div>
-                <div class="medium-9 columns">
+                <div class="medium-9 columns header-large-menu">
                     <?php wp_nav_menu(array(
                                         'container' => false,
                                         'theme_location' => 'primary',
