@@ -541,8 +541,13 @@ $box-small-height: rem-calc(88);
   font-weight: bold;
 }
 
+.home--sponsors h3 { 
+  font-size: rem-calc(18);
+  font-weight: bold;
+}
+
 .home--sponsors img {
-  max-height: rem-calc(100);
+  max-height: rem-calc(200px);
 }
 
 .sponsors--heading {
