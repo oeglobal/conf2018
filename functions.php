@@ -31,7 +31,7 @@ function cf_scripts() {
     if ( is_admin() ) {
         wp_enqueue_style( 'cf-admin', get_template_directory_uri() . '/css/admin.css' );
     } else {
-          wp_enqueue_style( 'cf-style', get_template_directory_uri() . '/css/app.css', array(), '123456' );
+          wp_enqueue_style( 'cf-style', get_template_directory_uri() . '/css/app.css', array(), '123457' );
           wp_enqueue_script( 'cf-script', get_template_directory_uri() . '/js/app.js', array( 'jquery' ), '', true );
     }
 }
