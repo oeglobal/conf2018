@@ -24,6 +24,25 @@
             "disabled": 0
         },
         {
+            "key": "field_5a0db4cc9ab7b",
+            "label": "Sponsors - 1\/2 width",
+            "name": "sponsors_half",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
             "key": "field_5638c174019b3",
             "label": "Sponsors",
             "name": "sponsors",
@@ -141,5 +160,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1446563813
+    "modified": 1510847719
 }
