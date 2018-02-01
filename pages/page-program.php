@@ -9,6 +9,10 @@
     td {
         vertical-align: top;
     }
+
+    .off-canvas-content {
+        overflow-x: scroll !important;
+    }
 </style>
 
 <div class="container">
