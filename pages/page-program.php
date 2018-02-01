@@ -25,7 +25,7 @@
                     <th class="text-center">Tue 24/4</th>
                     <th class="text-center">Wed 25/4</th>
                     <th class="text-center">Thu 26/4</th>
-                    <th class="text-center">Kingsday</th>
+                    <th class="text-center">Kingsday <br />Fri 27/4</th>
                 </tr>
                 </thead>
                 <tbody>
