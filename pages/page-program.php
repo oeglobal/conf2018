@@ -14,16 +14,18 @@
 <div class="container">
     <div class="row">
         <div class="column">
+            <h1 class="page--title">Program At-a-Glance</h1>
+
             <table class="table text-center">
                 <thead>
                 <tr>
-                    <th>Saturday 21/4</th>
-                    <th>Sunday 22/4</th>
-                    <th>Monday 23/4</th>
-                    <th>Tuesday 24/4</th>
-                    <th>Wednesday 25/4</th>
-                    <th>Thursday 26/4</th>
-                    <th>Kingsday</th>
+                    <th class="text-center">Sat 21/4</th>
+                    <th class="text-center">Sun 22/4</th>
+                    <th class="text-center">Mon 23/4</th>
+                    <th class="text-center">Tue 24/4</th>
+                    <th class="text-center">Wed 25/4</th>
+                    <th class="text-center">Thu 26/4</th>
+                    <th class="text-center">Kingsday</th>
                 </tr>
                 </thead>
                 <tbody>
