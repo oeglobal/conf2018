@@ -82,7 +82,7 @@
                             Opening Minister of Education<br/>
                             Keynote Vincent Zimmer</b></td>
                     <td class="yellow">
-                        9:00 - 10:00<br/>
+                        9:00 - 10:15<br/>
                         <br/>
                         <b>Keynote Erin McKiernan<br/>
                             UNESCO OER Policy Update</b></td>
@@ -107,7 +107,7 @@
                     <td class="blue">10:45 - 12:30<br/>
                         <b>parallel sessions A1 (4)</b>
                     </td>
-                    <td class="blue">10:30 - 12:35<br/>
+                    <td class="blue">10:45 - 12:50<br/>
                         <b>parallel sessions B1 (5)</b>
                     </td>
                     <td class="blue">10:30 - 12:10<br/>
@@ -122,7 +122,7 @@
                     <td class="green">12:30 -13:30<br/>
                         Lunch
                     </td>
-                    <td class="green">12:35 -13:35<br/>
+                    <td class="green">12:50 -13:50<br/>
                         Lunch<br/>
                         <b>poster session</b></td>
                     <td class="green">12:10 -13:15<br/>
@@ -137,7 +137,7 @@
                     </td>
                     <td class="yellow">13:30 - 14:15<br/>
                         <b>OE Consortium Update by new Executive Director</b></td>
-                    <td class="yellow">13:35 - 14:20<br />
+                    <td class="yellow">13:50 - 14:35<br />
                         <b>Featured Speaker 1</b></td>
                     <td class="blue">13:15 - 14:30<br/>
                         <b>parallel sessions C2 (3)</b></td>
@@ -162,7 +162,7 @@
                         Coffee/Tea Break
                     </td>
                     <td class="green">
-                        15:45 - 16:15<br/>
+                        16:00 - 16:30<br/>
                         Coffee/Tea Break
                     </td>
                     <td class="green">15:30  - 16:00<br/>
@@ -175,7 +175,7 @@
                         <b>parallel sessions A3 (3)</b>
                     </td>
                     <td rowspan="2" class="blue">
-                        16:15 - 17:30<br />
+                        16:30 - 17:45<br />
                         <b>parallel sessions B3 (3)</b>
                     </td>
                     <td rowspan="6" class="cream"><b>Optional Madurodam Tour</b></td>
