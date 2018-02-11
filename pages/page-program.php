@@ -36,9 +36,14 @@
     .off-canvas-content {
         overflow-x: scroll !important;
     }
+
+    .content a {
+        color: black;
+        text-decoration: underline;
+    }
 </style>
 
-<div class="container">
+<div class="container content">
     <div class="row">
         <div class="column">
             <h1 class="page--title">Program At-a-Glance</h1>
@@ -131,12 +136,11 @@
                 </tr>
                 <tr>
                     <td rowspan="4" class="purple"><b>14.00 - 17.00<br />
-                            <b></b>Pre-Conference<br/>
-                            TU Delft Open & Online<br/>
-                            Education</b>
+                            <a href="https://conference.oeconsortium.org/2018/program/pre-conference-event-tu-delft-open-online-program-and-tour/">Pre-Conference<br/>
+                                TU Delft Open & Online Education</a></b>
                     </td>
                     <td class="yellow">13:30 - 14:15<br/>
-                        <b>OE Consortium Update by new Executive Director</b></td>
+                        <b>OE Consortium Update by Paul Stacey</b></td>
                     <td class="yellow">13:50 - 14:35<br />
                         <b>Featured Speaker 1</b></td>
                     <td class="blue">13:15 - 14:30<br/>
@@ -178,7 +182,7 @@
                         16:30 - 17:45<br />
                         <b>parallel sessions B3 (3)</b>
                     </td>
-                    <td rowspan="6" class="cream"><b>Optional Madurodam Tour</b></td>
+                    <td rowspan="6" class="cream"><b><a href="https://conference.oeconsortium.org/2018/tours-attractions/">Optional Madurodam Tour</a></b></td>
                 </tr>
 
                 <tr>
@@ -199,7 +203,7 @@
                 </tr>
                 <tr>
                     <td rowspan="2" class="peach">19:00 - 23:00<br/>
-                        <b>Gala Dinner</b>
+                        <a href="https://conference.oeconsortium.org/2018/program/gala-dinner/"><b>Gala Dinner</b></a>
                     </td>
                 </tr>
                 <tr>
