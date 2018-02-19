@@ -142,7 +142,7 @@
                     <td class="yellow">13:30 - 14:15<br/>
                         <b>OE Consortium Update by Paul Stacey</b></td>
                     <td class="yellow">13:50 - 14:35<br />
-                        <b>Featured Speaker 1</b></td>
+                        <b>Andreia Inamorato Dos Santos, DG Joint Research Centre (JRC)</b></td>
                     <td class="blue">13:15 - 14:30<br/>
                         <b>parallel sessions C2 (3)</b></td>
                 </tr>
