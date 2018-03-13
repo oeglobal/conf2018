@@ -153,7 +153,9 @@ body.home {
 }
 
 .off-canvas .submenu {
+  position: inherit;
   background-color: $orangeDark;
+  padding-left: 20px;
 }
 
 .admin-bar .off-canvas {
