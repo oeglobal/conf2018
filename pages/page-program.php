@@ -182,7 +182,7 @@
                         16:30 - 17:45<br />
                         <b>parallel sessions B3 (3)</b>
                     </td>
-                    <td rowspan="6" class="cream"><b><a href="https://conference.oeconsortium.org/2018/tours-attractions/">Optional Madurodam Tour</a></b></td>
+                    <td rowspan="6" class="cream"><b><a href="/2018/tours-attractions/">Optional End of Conference Event</a></b></td>
                 </tr>
 
                 <tr>
