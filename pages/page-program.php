@@ -84,13 +84,13 @@
                     <td rowspan="3" class="white"></td>
                     <td class="yellow">9:00 - 10:15<br/>
                         <b>Welcome<br/>
-                            Opening Minister of Education<br/>
+                            Opening Minister of Education<br/><br/>
                             Keynote Vincent Zimmer</b></td>
                     <td class="yellow">
                         9:00 - 10:15<br/>
                         <br/>
-                        <b>Keynote Erin McKiernan<br/>
-                            UNESCO OER Policy Update</b></td>
+                        <b>Keynote<br />Erin McKiernan<br/><br/>
+                            UNESCO OER Policy Update Gašper Hrastelj, Mitja Jermol</b></td>
 
                     <td class="yellow">9:00 - 10:00<br/>
                         <br/>
